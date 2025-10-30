@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bmtcustomdata><namespace name="visuals"><object name="[]"><property name="BMTFW_Layout_Version">long:9</property><property name="BMTFW_Layout"><![CDATA[string:[Dimensional view].[Products]
+	dx=113,153
+	parent=Dimensional view
+	x=585,154
+[Dimensional view].[Product brand]
+	dx=144,133
+	parent=Dimensional view
+	x=615,184
+[Dimensional view].[Retailer (by type)]
+	dx=160,101
+	parent=Dimensional view
+	x=10,2976
+[Dimensional view].[Retailers]
+	dx=112,153
+	parent=Dimensional view
+	x=675,244
+[Dimensional view].[Return reason]
+	dx=143,93
+	parent=Dimensional view
+	x=909,778
+[Dimensional view].[Sales staff]
+	dx=121,153
+	parent=Dimensional view
+	x=705,274
+[Dimensional view].[Time]
+	dx=88,153
+	parent=Dimensional view
+	x=735,304
+[Dimensional view].[Time (close date)]
+	dx=161,153
+	parent=Dimensional view
+	x=765,334
+[Dimensional view].[Time (ship date)]
+	dx=154,153
+	parent=Dimensional view
+	x=795,364
+[Dimensional view]
+	c=d8a77d
+	dx=1062,3087
+	expanded=t
+	parent=go_sales
+	view=0,0
+	x=2316,57
+	zoom=1.000000
+[Filters and calculations].[AssignStaff]
+	dx=180,29
+	parent=Filters and calculations
+	x=10,57
+[Filters and calculations]
+	c=89c6fd
+	dx=200,95
+	expanded=t
+	parent=go_sales
+	x=384,6385
+[go_sales]
+	view=1357,1526
+	zoom=1.000000
+[]
+	Notation=4
+	ShowGrid=1
+	Snap=1
+	font=Arial Narrow
+	lod=33
+	tc=323232
+	viewStyle=2
+[gosales].[PRODUCT_FORECAST]
+	dx=196,169
+	parent=gosales
+	x=618,3441
+[gosales].[RETURNED_ITEM]
+	dx=168,209
+	parent=gosales
+	x=618,286
+[gosales].[RETURN_REASON]
+	dx=183,229
+	parent=gosales
+	x=618,522
+[gosales].[SALES_REGION]
+	dx=156,229
+	parent=gosales
+	x=1074,2693
+[gosales].[SALES_TARGET]
+	dx=185,209
+	parent=gosales
+	x=1074,2949
+[gosales].[TIME_DIMENSION]
+	dx=166,229
+	parent=gosales
+	x=618,30
+[gosales].[TIME_QUARTER_LOOKUP]
+	dx=217,229
+	parent=gosales
+	x=824,30
+[gosales].[PRODUCT_COLOR_LOOKUP]
+	dx=232,229
+	parent=Product query subjects
+	x=226,166
+[gosales].[PRODUCT_NAME_LOOKUP]
+	dx=224,109
+	parent=Product query subjects
+	x=226,30
+[Inventory (analysis)].[Inventory]
+	dx=120,149
+	parent=Inventory (analysis)
+	x=204,3421
+[Inventory (analysis)].[Branch]
+	dx=102,93
+	parent=Inventory (analysis)
+	x=156,3601
+[Inventory (analysis)].[Products]
+	dx=113,137
+	parent=Inventory (analysis)
+	x=2105,162
+[Inventory (analysis)].[Time]
+	dx=88,137
+	parent=Inventory (analysis)
+	x=1985,42
+[Inventory (analysis)]
+	c=9bdfc4
+	dx=2228,3694
+	expanded=t
+	parent=go_sales
+	x=10,6385
+[Product forecast (analysis)].[Product forecast]
+	dx=158,109
+	parent=Product forecast (analysis)
+	x=204,57
+[Product forecast (analysis)].[Branch]
+	dx=102,93
+	parent=Product forecast (analysis)
+	x=156,237
+[Product forecast (analysis)].[Products]
+	dx=113,153
+	parent=Product forecast (analysis)
+	x=224,154
+[Product forecast (analysis)].[Product brand]
+	dx=214,133
+	parent=Product forecast (analysis)
+	x=224,154
+[Product forecast (analysis)].[Time]
+	dx=88,153
+	parent=Product forecast (analysis)
+	x=254,184
+[Product forecast (analysis)]
+	c=d8a77d
+	dx=448,331
+	expanded=t
+	parent=go_sales
+	view=0,0
+	x=868,5806
+	zoom=1.000000
+[Returned items (analysis)].[Returned items]
+	dx=150,89
+	parent=Returned items (analysis)
+	x=10,2337
+[Returned items (analysis)].[Order]
+	dx=115,113
+	parent=Returned items (analysis)
+	x=191,2457
+[Returned items (analysis)].[Order method]
+	dx=141,93
+	parent=Returned items (analysis)
+	x=10,2457
+[Returned items (analysis)].[Products]
+	dx=113,137
+	parent=Returned items (analysis)
+	x=1701,162
+[Returned items (analysis)].[Retailers]
+	dx=112,137
+	parent=Returned items (analysis)
+	x=1821,282
+[Returned items (analysis)].[Return reason]
+	dx=143,93
+	parent=Returned items (analysis)
+	x=200,2337
+[Returned items (analysis)].[Sales staff]
+	dx=121,137
+	parent=Returned items (analysis)
+	x=1911,372
+[Returned items (analysis)].[Time]
+	dx=88,137
+	parent=Returned items (analysis)
+	x=1581,42
+[Returned items (analysis)]
+	c=89c6fd
+	dx=2042,2568
+	expanded=t
+	parent=go_sales
+	x=444,4971
+[Sales (analysis)].[Sales]
+	dx=114,209
+	parent=Sales (analysis)
+	x=536,1016
+[Sales (analysis)].[Branch]
+	dx=102,93
+	parent=Sales (analysis)
+	x=155,1612
+[Sales (analysis)].[Order]
+	dx=115,113
+	parent=Sales (analysis)
+	x=337,1432
+[Sales (analysis)].[Order method]
+	dx=141,93
+	parent=Sales (analysis)
+	x=156,1432
+[Sales (analysis)].[Products]
+	dx=113,137
+	parent=Sales (analysis)
+	x=1373,162
+[Sales (analysis)].[Retailer type]
+	dx=134,101
+	parent=Sales (analysis)
+	x=1703,492
+[Sales (analysis)].[Retailers]
+	dx=112,137
+	parent=Sales (analysis)
+	x=1493,282
+[Sales (analysis)].[Sales staff]
+	dx=121,137
+	parent=Sales (analysis)
+	x=1583,372
+[Sales (analysis)].[Time]
+	dx=88,137
+	parent=Sales (analysis)
+	x=1253,42
+[Sales (analysis)].[Time (close date)]
+	dx=161,137
+	parent=Sales (analysis)
+	x=1673,462
+[Sales (analysis)].[Time (ship date)]
+	dx=154,137
+	parent=Sales (analysis)
+	x=1643,432
+[Sales (analysis)]
+	c=99b2c7
+	dx=1847,1705
+	expanded=t
+	parent=go_sales
+	x=802,4040
+[Sales target (analysis)].[Sales target]
+	dx=130,49
+	parent=Sales target (analysis)
+	x=10,2457
+[Sales target (analysis)].[Products]
+	dx=113,137
+	parent=Sales target (analysis)
+	x=1368,162
+[Sales target (analysis)].[Product brand]
+	dx=144,119
+	parent=Sales target (analysis)
+	x=1398,192
+[Sales target (analysis)].[Retailer type]
+	dx=134,101
+	parent=Sales target (analysis)
+	x=1698,492
+[Sales target (analysis)].[Retailers]
+	dx=112,137
+	parent=Sales target (analysis)
+	x=1488,282
+[Sales target (analysis)].[Sales staff]
+	dx=121,137
+	parent=Sales target (analysis)
+	x=1578,372
+[Sales target (analysis)].[Time]
+	dx=88,137
+	parent=Sales target (analysis)
+	x=1248,42
+[Sales target (analysis)]
+	c=bf8cbc
+	dx=1842,2513
+	expanded=t
+	parent=go_sales
+	x=837,4971
+[Inventory (query)].[Inventory]
+	dx=152,229
+	parent=Inventory (query)
+	x=10,2528
+[Inventory (query)].[Branch]
+	dx=175,229
+	parent=Inventory (query)
+	x=10,2272
+[Inventory (query)].[Products]
+	dx=137,208
+	parent=Inventory (query)
+	x=2555,42
+[Inventory (query)].[Time]
+	dx=128,208
+	parent=Inventory (query)
+	x=2585,72
+[Inventory (query)]
+	c=758698
+	dx=2723,2764
+	expanded=t
+	parent=go_sales
+	x=10,5806
+[Product forecast (query)].[Product forecast]
+	dx=158,209
+	parent=Product forecast (query)
+	x=10,313
+[Product forecast (query)].[Branch]
+	dx=175,229
+	parent=Product forecast (query)
+	x=10,57
+[Product forecast (query)].[Products]
+	dx=137,208
+	parent=Product forecast (query)
+	x=224,154
+[Product forecast (query)].[Product brand]
+	dx=144,208
+	parent=Product forecast (query)
+	x=404,334
+[Product forecast (query)].[Time]
+	dx=128,208
+	parent=Product forecast (query)
+	x=254,184
+[Product forecast (query)]
+	c=99f7ff
+	dx=558,552
+	expanded=t
+	parent=go_sales
+	view=0,0
+	x=439,5806
+	zoom=1.000000
+[Returned items (query)].[Returned items]
+	dx=150,229
+	parent=Returned items (query)
+	x=204,702
+[Returned items (query)].[Assigned staff]
+	dx=214,208
+	parent=Returned items (query)
+	x=1123,42
+[Returned items (query)].[Order]
+	dx=115,69
+	parent=Returned items (query)
+	x=191,1214
+[Returned items (query)].[Order method]
+	dx=141,69
+	parent=Returned items (query)
+	x=10,1214
+[Returned items (query)].[Products]
+	dx=137,208
+	parent=Returned items (query)
+	x=1153,72
+[Returned items (query)].[Retailers]
+	dx=206,208
+	parent=Returned items (query)
+	x=1183,102
+[Returned items (query)].[Return reason]
+	dx=143,69
+	parent=Returned items (query)
+	x=187,958
+[Returned items (query)].[Sales staff]
+	dx=164,208
+	parent=Returned items (query)
+	x=1213,132
+[Returned items (query)].[Time]
+	dx=128,208
+	parent=Returned items (query)
+	x=1243,162
+[Returned items (query)]
+	c=73d3ac
+	dx=1399,1288
+	expanded=t
+	parent=go_sales
+	x=1502,4040
+[Sales (query)].[Sales]
+	dx=160,229
+	parent=Sales (query)
+	x=429,552
+[Sales (query)].[Branch]
+	dx=175,229
+	parent=Sales (query)
+	x=10,552
+[Sales (query)].[Order]
+	dx=115,69
+	parent=Sales (query)
+	x=191,1064
+[Sales (query)].[Order method]
+	dx=141,69
+	parent=Sales (query)
+	x=10,1064
+[Sales (query)].[Products]
+	dx=137,208
+	parent=Sales (query)
+	x=2765,42
+[Sales (query)].[Retailer type]
+	dx=134,136
+	parent=Sales (query)
+	x=2795,72
+[Sales (query)].[Retailers]
+	dx=206,208
+	parent=Sales (query)
+	x=2825,102
+[Sales (query)].[Sales staff]
+	dx=164,208
+	parent=Sales (query)
+	x=2855,132
+[Sales (query)].[Time]
+	dx=128,208
+	parent=Sales (query)
+	x=2885,162
+[Sales (query)].[Time (close date)]
+	dx=190,208
+	parent=Sales (query)
+	x=2915,192
+[Sales (query)].[Time (ship date)]
+	dx=184,208
+	parent=Sales (query)
+	x=2945,222
+[Sales (query)]
+	c=568ef6
+	dx=3139,1138
+	expanded=t
+	parent=go_sales
+	x=10,4040
+[Sales target (query)].[Sales target]
+	dx=138,229
+	parent=Sales target (query)
+	x=204,1273
+[Sales target (query)].[Products]
+	dx=137,208
+	parent=Sales target (query)
+	x=2975,42
+[Sales target (query)].[Product brand]
+	dx=144,208
+	parent=Sales target (query)
+	x=3005,72
+[Sales target (query)].[Retailer type]
+	dx=134,136
+	parent=Sales target (query)
+	x=3035,102
+[Sales target (query)].[Sales staff]
+	dx=164,208
+	parent=Sales target (query)
+	x=3065,132
+[Sales target (query)].[Time]
+	dx=128,208
+	parent=Sales target (query)
+	x=3095,162
+[Sales target (query)]
+	c=527ca5
+	dx=3239,1491
+	expanded=t
+	parent=go_sales
+	x=10,4971
+[gosales].[BRANCH]
+	dx=195,229
+	parent=gosales
+	x=618,2581
+[gosales].[COUNTRY]
+	dx=181,229
+	parent=gosales
+	x=853,2581
+[gosales].[CONVERSION_RATE]
+	dx=183,109
+	parent=Country lookups
+	x=10,313
+[gosales].[CURRENCY_LOOKUP]
+	dx=189,229
+	parent=Country lookups
+	x=10,57
+[gosales].[EURO_CONVERSION]
+	dx=185,109
+	parent=Country lookups
+	x=239,57
+[gosales].[Country lookups]
+	c=89c6fd
+	dx=434,423
+	expanded=t
+	parent=gosales
+	x=1074,2234
+[gosales].[INVENTORY_LEVELS]
+	dx=195,229
+	parent=gosales
+	x=618,3185
+[gosales].[ORDER_METHOD]
+	dx=165,229
+	parent=gosales
+	x=618,1978
+[gosales].[PRODUCT_SIZE_LOOKUP]
+	dx=215,229
+	parent=Product query subjects
+	x=226,422
+[gosales].[PRODUCT_BRAND]
+	dx=172,229
+	parent=Product query subjects
+	x=226,678
+[gosales].[PRODUCT]
+	dx=176,229
+	parent=Product query subjects
+	x=10,482
+[gosales].[PRODUCT_LINE]
+	dx=156,229
+	parent=Product query subjects
+	x=426,934
+[gosales].[PRODUCT_TYPE]
+	dx=160,229
+	parent=Product query subjects
+	x=226,934
+[gosales].[Product query subjects]
+	c=99b2c7
+	dx=592,1173
+	expanded=t
+	parent=gosales
+	x=618,778
+[gosales].[ORDER_DETAILS]
+	dx=164,209
+	parent=Order query subjects
+	x=10,40
+[gosales].[ORDER_HEADER]
+	dx=183,229
+	parent=Order query subjects
+	x=214,30
+[gosales].[Order query subjects]
+	c=bf8cbc
+	dx=407,248
+	expanded=t
+	parent=gosales
+	x=10,3637
+[gosales].[Sales target]
+	dx=138,229
+	parent=Model query subjects (gosales)
+	x=420,798
+[gosales].[Sales]
+	dx=160,229
+	parent=Model query subjects (gosales)
+	x=10,590
+[gosales].[Returned items]
+	dx=150,229
+	parent=Model query subjects (gosales)
+	x=365,30
+[goretailers].[RETAILER_TYPE]
+	dx=161,229
+	parent=goretailers
+	x=450,542
+[goretailers].[Retailers]
+	dx=206,208
+	parent=Model query subjects (goretailers)
+	x=20,42
+[goretailers].[Retailer type]
+	dx=134,136
+	parent=Model query subjects (goretailers)
+	x=50,72
+[goretailers].[Model query subjects (goretailers)]
+	c=73d3ac
+	dx=236,260
+	expanded=t
+	parent=goretailers
+	x=247,798
+[goretailers]
+	c=99f7ff
+	dx=683,1204
+	expanded=t
+	parent=Database view
+	x=1568,2075
+[gohr].[GENDER_LOOKUP]
+	dx=172,229
+	parent=gohr
+	x=434,30
+[gohr].[EMPLOYEE]
+	dx=145,229
+	parent=gohr
+	x=249,30
+[gohr].[EMPLOYEE_HISTORY]
+	dx=199,229
+	parent=gohr
+	x=10,286
+[gohr].[POSITION_LOOKUP]
+	dx=178,229
+	parent=gohr
+	x=500,542
+[gohr].[POSITION_DEPARTMENT]
+	dx=211,149
+	parent=gohr
+	x=249,582
+[gohr].[ORGANIZATION]
+	dx=177,229
+	parent=gohr
+	x=249,286
+[gosales].[Order]
+	dx=115,69
+	parent=Model query subjects (gosales)
+	x=210,110
+[gosales].[Time (ship date)]
+	dx=184,208
+	parent=Model query subjects (gosales)
+	x=284,214
+[gosales].[Time (close date)]
+	dx=190,208
+	parent=Model query subjects (gosales)
+	x=314,244
+[gosales].[Product brand]
+	dx=144,208
+	parent=Model query subjects (gosales)
+	x=344,274
+[gosales].[Order method]
+	dx=141,69
+	parent=Model query subjects (gosales)
+	x=210,1054
+[gosales].[Products]
+	dx=137,208
+	parent=Model query subjects (gosales)
+	x=374,304
+[gosales].[Model query subjects (gosales)]
+	c=758698
+	dx=568,1128
+	expanded=t
+	parent=gosales
+	view=0,0
+	x=10,1125
+	zoom=1.000000
+[gosales]
+	c=d8a77d
+	dx=1518,3895
+	expanded=t
+	parent=Database view
+	x=10,30
+[goretailers].[ACTIVITY_STATUS_LOOKUP]
+	dx=232,229
+	parent=goretailers
+	x=247,286
+[goretailers].[RETAILER]
+	dx=163,129
+	parent=goretailers
+	x=247,592
+[goretailers].[RETAILER_ACTIVITY]
+	dx=185,109
+	parent=goretailers
+	x=10,1094
+[goretailers].[RETAILER_CONTACT]
+	dx=189,229
+	parent=goretailers
+	x=247,30
+[goretailers].[RETAILER_SITE]
+	dx=197,229
+	parent=goretailers
+	x=10,434
+[goretailers].[RETAILER_SITE_MB]
+	dx=197,229
+	parent=goretailers
+	x=476,30
+[gohr].[Sales staff]
+	dx=164,208
+	parent=Model query subjects (gohr)
+	x=317,1430
+[gohr].[Manager]
+	dx=187,229
+	parent=Model query subjects (gohr)
+	x=264,57
+[gohr].[Assigned staff]
+	dx=214,229
+	parent=Model query subjects (gohr)
+	x=10,57
+[gohr].[Model query subjects (gohr)]
+	c=527ca5
+	dx=491,1648
+	expanded=t
+	parent=gohr
+	x=10,798
+[gohr]
+	c=568ef6
+	dx=688,2456
+	expanded=t
+	parent=Database view
+	x=1568,688
+[Database view]
+	c=9bdfc4
+	dx=2266,3935
+	expanded=t
+	parent=go_sales
+	x=10,57
+[Business view].[Inventory]
+	dx=152,229
+	parent=Business view
+	x=1142,569
+[Business view].[Product forecast]
+	dx=158,209
+	parent=Business view
+	x=1524,569
+[Business view].[Returned items]
+	dx=150,229
+	parent=Business view
+	x=1334,569
+[Business view].[Sales]
+	dx=160,229
+	parent=Business view
+	x=1556,313
+[Business view].[Sales target]
+	dx=138,229
+	parent=Business view
+	x=1722,569
+[Business view].[Branch]
+	dx=175,229
+	parent=Business view
+	x=1914,57
+[Business view].[Order]
+	dx=115,69
+	parent=Business view
+	x=1142,1081
+[Business view].[Order method]
+	dx=141,69
+	parent=Business view
+	x=1702,825
+[Business view].[Products]
+	dx=137,208
+	parent=Business view
+	x=1210,4146
+[Business view].[Product brand]
+	dx=144,208
+	parent=Business view
+	x=1240,4176
+[Business view].[Retailer type]
+	dx=134,136
+	parent=Business view
+	x=1270,4206
+[Business view].[Retailers]
+	dx=206,208
+	parent=Business view
+	x=1300,4236
+[Business view].[Return reason]
+	dx=143,69
+	parent=Business view
+	x=1519,825
+[Business view].[Sales staff]
+	dx=164,208
+	parent=Business view
+	x=1330,4266
+[Business view].[Time]
+	dx=128,208
+	parent=Business view
+	x=10,2946
+[Business view].[Time (close date)]
+	dx=190,208
+	parent=Business view
+	x=1360,4296
+[Business view].[Time (ship date)]
+	dx=184,208
+	parent=Business view
+	x=1390,4326
+[Business view]
+	c=9bdfc4
+	dx=2099,4544
+	expanded=t
+	parent=go_sales
+	x=3057,57
+[Dimensional view].[Inventory]
+	dx=120,149
+	parent=Dimensional view
+	x=719,390
+[Dimensional view].[Product forecast]
+	dx=158,109
+	parent=Dimensional view
+	x=719,566
+[Dimensional view].[Returned items]
+	dx=150,89
+	parent=Dimensional view
+	x=719,780
+[Dimensional view].[Sales]
+	dx=114,209
+	parent=Dimensional view
+	x=371,946
+[Dimensional view].[Sales target]
+	dx=130,49
+	parent=Dimensional view
+	x=719,702
+[Dimensional view].[Branch]
+	dx=102,93
+	parent=Dimensional view
+	x=525,1258
+[Dimensional view].[Order]
+	dx=115,113
+	parent=Dimensional view
+	x=525,1678
+[Dimensional view].[Order method]
+	dx=141,93
+	parent=Dimensional view
+	x=525,1558
+]]></property></object></namespace></bmtcustomdata>
