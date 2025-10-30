@@ -1,0 +1,9 @@
+{
+    "project_options":{
+        "http":{
+            "http2":{
+                "enable_http2":false
+            }
+        }
+    }
+}
