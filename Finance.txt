@@ -1,0 +1,46 @@
+FDA 
+SSN
+Credit Card
+
+XlRisk  			Y
+
+SOX-XL				Y  
+
+password			Y
+
+Date 30/07/2015			Y
+
+Date 30-07-2015			Y
+
+D'wiliam			Y
+
+Release 7.2.0			Y
+
+06-Sep-2012			Y
+
+daveamit@csipl.com		Y
+
+21000,758			Y
+
+21000,760,858			Y
+
+AMBBS5				Y
+
+21.55,855			Y
+
+DataBase			Y	  
+
+Dar8han				Y
+
+
+1111-2222-3333-4444
+
+Gujarati
+
+1234 5678 9011 1213
+
+
+
+1054 8069 3105 5111	      	
+
+
